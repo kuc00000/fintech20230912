@@ -19,3 +19,12 @@ console.log(array)
 const points = [20,10,9,8]
 points.forEach(point => console.log(point));
 
+
+points.map(point=>console.log(point))
+
+let carName = car.name
+let carPh = car.ph;
+let carMaker = car.maker;
+
+const {name, ph, maker} = car;
+console.log(name,carName);
